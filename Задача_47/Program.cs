@@ -4,8 +4,8 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-int height = EnterInt("Enter height:  ");
-int width  = EnterInt("Enter width: ");
+int height = EnterInt("Введите количество строк в массиве:  ");
+int width  = EnterInt("Введите количество стобцов в массиве: ");
 
 double[ , ] numbers = new double[height, width];
 Fill2DArray(numbers, height, width);
