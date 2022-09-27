@@ -47,9 +47,9 @@ void Print2DArray (int[, ] numbers, int height, int width)
 
 void SearchElement(int[, ] numbers, int PositionHeight, int PositionWidth)
 {
-    if (PositionHeight <= height && PositionWidth <= width )
+    if (PositionHeight < height && PositionWidth < width )
     {
-         Console.WriteLine($"Значение элемента в заданом массиве = {numbers[PositionWidth - 1, PositionHeight - 1]}");
+         Console.WriteLine($"Значение элемента в заданом массиве = {numbers[PositionWidth, PositionHeight]}");
     }
     else
     {
